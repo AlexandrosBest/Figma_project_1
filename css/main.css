@@ -1,0 +1,19 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: white;
+}
+
+.section-1-container {
+  height: 1000px;
+  background-image: url("/images/background-1.png");
+}
+
+.container {
+  grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.col {
+  background-color: #313131;
+}/*# sourceMappingURL=main.css.map */
