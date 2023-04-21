@@ -32,7 +32,10 @@ li {
     background-image: url("/images/background-1.png");
 }
 
+.box {
+  background-color: $secondary-color;
+}
 
-.col {
-    background-color: $secondary-color;
+.section-2-container {
+  background-color: #1E1E1E;
 }

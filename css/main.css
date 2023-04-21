@@ -12043,6 +12043,10 @@ li a {
   background-image: url("/images/background-1.png");
 }
 
-.col {
+.box {
   background-color: #313131;
+}
+
+.section-2-container {
+  background-color: #1E1E1E;
 }/*# sourceMappingURL=main.css.map */
