@@ -12027,6 +12027,7 @@ textarea.form-control-lg {
 body {
   font: 100% Helvetica, sans-serif;
   color: white;
+  margin-top: 57px;
 }
 
 ul {
@@ -12043,14 +12044,30 @@ li a {
 }
 
 .section-1-container {
-  height: 1000px;
+  background-color: black;
   background-image: url("/images/background-1.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .box {
   background-color: #313131;
+  width: 300px;
+  height: 240px;
 }
 
 .section-2-container {
   background-color: #1E1E1E;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.container-lg {
+  padding-top: 120px;
+}
+
+.text-size {
+  font-size: 13px;
 }/*# sourceMappingURL=main.css.map */

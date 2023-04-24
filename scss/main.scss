@@ -15,6 +15,7 @@ $secondary-color: #313131;
 body {
   font: 100% $font-stack;
   color: $primary-color;
+  margin-top: 57px;
 }
 
 ul {
@@ -32,14 +33,30 @@ li {
 }
 
 .section-1-container {
-    height: 1000px;
-    background-image: url("/images/background-1.png");
+  background-color: black;
+  background-image: url("/images/background-1.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .box {
   background-color: $secondary-color;
+  width: 300px;
+  height: 240px;
 }
 
 .section-2-container {
   background-color: #1E1E1E;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.container-lg {
+  padding-top: 120px;
+}
+
+.text-size {
+  font-size: 13px;
 }
