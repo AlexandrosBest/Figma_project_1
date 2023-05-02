@@ -10,8 +10,10 @@
 $font-stack: Helvetica, sans-serif;
 $primary-color: white;
 $secondary-color: #313131;
-;
 
+html {
+  background-color: #1E1E1E;
+}
 
 body {
   font: 100% $font-stack;
@@ -74,3 +76,23 @@ li {
 .text-size {
   font-size: 13px;
 }
+
+.green-line {
+  width: 2px;
+  margin: auto;
+  margin-top: 10px;
+  height: 50px;
+  background-color: #098A5C;
+}
+
+.green-line-3 {
+  display: inline-block;
+  width: 2px;
+  margin-left: 150px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  height: 82px;
+  background-color: #098A5C;
+}
+
+
