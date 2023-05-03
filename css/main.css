@@ -12105,4 +12105,9 @@ li a {
   margin-bottom: 70px;
   height: 82px;
   background-color: #098A5C;
+}
+
+.dropdown-menu {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
 }/*# sourceMappingURL=main.css.map */
