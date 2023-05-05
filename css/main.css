@@ -12049,7 +12049,9 @@ li a {
 
 .section-1-container {
   background-color: black;
+
   background-image: url("../images/background-1.png");
+
   background-size: cover;
   background-position: center;
 }
@@ -12062,6 +12064,7 @@ li a {
 
 .box-green {
   background-color: #098A5C;
+
   width: 340px;
   height: auto;
 }
@@ -12076,6 +12079,7 @@ li a {
   width: 100%;
   background-color: white;
   height: 6px;
+
 }
 
 .section-2-container {
@@ -12101,6 +12105,7 @@ li a {
   height: 50px;
   background-color: #098A5C;
 }
+
 
 .green-line-2 {
   width: 72px;
