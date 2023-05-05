@@ -12049,7 +12049,9 @@ li a {
 
 .section-1-container {
   background-color: black;
-  background-image: url("/images/background-1.png");
+
+  background-image: url("../images/background-1.png");
+
   background-size: cover;
   background-position: center;
 }
@@ -12062,15 +12064,22 @@ li a {
 
 .box-green {
   background-color: #098A5C;
-  width: 300px;
-  height: 240px;
+
+  width: 340px;
+  height: auto;
+}
+
+.grid-section-2-card {
+  background-color: #313131;
+  width: 340px;
+  height: auto;
 }
 
 .white-line {
   width: 100%;
   background-color: white;
   height: 6px;
-  margin-top: 13px;
+
 }
 
 .section-2-container {
@@ -12097,6 +12106,14 @@ li a {
   background-color: #098A5C;
 }
 
+
+.green-line-2 {
+  width: 72px;
+  height: 2px;
+  margin-top: 24px;
+  background-color: #098A5C;
+}
+
 .green-line-3 {
   display: inline-block;
   width: 2px;
@@ -12110,4 +12127,8 @@ li a {
 .dropdown-menu {
   background: rgba(0, 0, 0, 0.5);
   color: white;
+}
+
+.secton-3-container {
+  background-color: #313131;
 }/*# sourceMappingURL=main.css.map */
