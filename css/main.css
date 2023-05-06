@@ -12032,6 +12032,7 @@ body {
   font: 100% Helvetica, sans-serif;
   color: white;
   margin-top: 57px;
+  background-color: #313131;
 }
 
 ul {
@@ -12047,11 +12048,22 @@ li a {
   font-weight: 600;
 }
 
+.container-lg {
+  padding-top: 120px;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.dropdown-menu {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
 .section-1-container {
   background-color: black;
-
   background-image: url("../images/background-1.png");
-
   background-size: cover;
   background-position: center;
 }
@@ -12064,34 +12076,8 @@ li a {
 
 .box-green {
   background-color: #098A5C;
-
   width: 340px;
   height: auto;
-}
-
-.grid-section-2-card {
-  background-color: #313131;
-  width: 340px;
-  height: auto;
-}
-
-.white-line {
-  width: 100%;
-  background-color: white;
-  height: 6px;
-
-}
-
-.section-2-container {
-  background-color: #1E1E1E;
-}
-
-.navbar {
-  background-color: black;
-}
-
-.container-lg {
-  padding-top: 120px;
 }
 
 .text-size {
@@ -12106,6 +12092,27 @@ li a {
   background-color: #098A5C;
 }
 
+.section-2-container {
+  background-color: #1E1E1E;
+  width: 100%;
+  padding-bottom: 70px;
+}
+
+.section-2-grid-container {
+  padding-bottom: 70px;
+}
+
+.grid-section-2-card {
+  background-color: #313131;
+  width: 340px;
+  height: auto;
+}
+
+.white-line {
+  width: 100%;
+  background-color: white;
+  height: 6px;
+}
 
 .green-line-2 {
   width: 72px;
@@ -12115,20 +12122,37 @@ li a {
 }
 
 .green-line-3 {
-  display: inline-block;
   width: 2px;
-  margin-left: 150px;
-  margin-top: 70px;
-  margin-bottom: 70px;
   height: 82px;
   background-color: #098A5C;
+  margin: auto;
 }
 
-.dropdown-menu {
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-}
-
-.secton-3-container {
+.section-3-container {
   background-color: #313131;
+}
+
+.container-grid-works {
+  width: 100%;
+  background-color: #313131;
+}
+
+.img-works {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.green-line-4 {
+  width: 2px;
+  height: 82px;
+  background-color: #098A5C;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section-4-container {
+  background-color: #1E1E1E;
 }/*# sourceMappingURL=main.css.map */

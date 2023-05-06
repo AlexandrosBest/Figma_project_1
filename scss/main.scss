@@ -11,6 +11,8 @@ $font-stack: Helvetica, sans-serif;
 $primary-color: white;
 $secondary-color: #313131;
 
+//general
+
 html {
   background-color: #1E1E1E;
 }
@@ -19,6 +21,7 @@ body {
   font: 100% $font-stack;
   color: $primary-color;
   margin-top: 57px;
+  background-color: #313131;
 }
 
 ul {
@@ -34,6 +37,20 @@ li {
     font-weight: 600;
   }
 }
+
+.container-lg {
+  padding-top: 120px;
+}
+
+//nav
+
+.navbar {
+  background-color: black;
+}
+
+.dropdown-menu{background:rgba(0,0,0,0.5); color:white; }
+
+//section-1
 
 .section-1-container {
   background-color: black;
@@ -54,30 +71,6 @@ li {
   height: auto;
 }
 
-.grid-section-2-card {
-  background-color: $secondary-color;
-  width: 340px;
-  height: auto;
-}
-
-.white-line {
-  width: 100%;
-  background-color: white;
-  height: 6px;
-}
-
-.section-2-container {
-  background-color: #1E1E1E;
-}
-
-.navbar {
-  background-color: black;
-}
-
-.container-lg {
-  padding-top: 120px;
-}
-
 .text-size {
   font-size: 13px;
 }
@@ -90,6 +83,31 @@ li {
   background-color: #098A5C;
 }
 
+//section-2
+
+.section-2-container {
+  background-color: #1E1E1E;
+  width: 100%;
+  padding-bottom: 70px;
+}
+
+.section-2-grid-container {
+  padding-bottom: 70px;
+}
+
+
+.grid-section-2-card {
+  background-color: $secondary-color;
+  width: 340px;
+  height: auto;
+}
+
+.white-line {
+  width: 100%;
+  background-color: white;
+  height: 6px;
+}
+
 .green-line-2 {
   width: 72px;
   height: 2px;
@@ -98,17 +116,40 @@ li {
 }
 
 .green-line-3 {
-  display: inline-block;
   width: 2px;
-  margin-left: 150px;
-  margin-top: 70px;
-  margin-bottom: 70px;
   height: 82px;
   background-color: #098A5C;
+  margin: auto;
 }
 
-.dropdown-menu{background:rgba(0,0,0,0.5); color:white; }
+//section-3
 
-.secton-3-container {
+.section-3-container {
   background-color: #313131;
+}
+
+.container-grid-works {
+  width: 100%;
+  background-color: #313131;
+}
+
+.img-works {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.green-line-4 {
+  width: 2px;
+  height: 82px;
+  background-color: #098A5C;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+// Section-4 
+
+.section-4-container {
+  background-color: #1E1E1E;
 }
