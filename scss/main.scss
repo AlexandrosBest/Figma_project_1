@@ -65,10 +65,18 @@ li {
   background-position: center;
 }
 
+.col-size {
+  width: 300px;
+  margin-right: 150px;
+}
+
+.col-size-creatuve {
+  width: 300px;
+}
+
 .box {
   background-color: $secondary-color;
   width: 300px;
-  height: 240px;
 }
 
 .text-size {
@@ -78,7 +86,6 @@ li {
 .green-line {
   width: 2px;
   margin: auto;
-  margin-top: 10px;
   height: 50px;
   background-color: #098A5C;
 }
@@ -87,22 +94,27 @@ li {
 
 .section-2-container {
   background-color: #1E1E1E;
-  width: 100%;
   padding-bottom: 70px;
 }
 
 .section-2-grid-container {
-  padding-bottom: 70px;
+  
 }
 
 
 .grid-section-2-card {
   background-color: $secondary-color;
+  width: 340px;
   height: auto;
+}
+
+.col-size-2 {
+  width: 341px;
 }
 
 .box-green {
   background-color: #098A5C;
+  width: 340px;
   height: auto;
 }
 
@@ -124,6 +136,7 @@ li {
   height: 82px;
   background-color: #098A5C;
   margin: auto;
+  margin-top: 70px;
 }
 
 //section-3
