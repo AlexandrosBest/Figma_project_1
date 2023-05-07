@@ -12,7 +12,9 @@ $primary-color: white;
 $secondary-color: #313131;
 
 //general
-
+.underline {
+  background-color: #098A5C;
+}
 html {
   background-color: #1E1E1E;
 }
@@ -65,12 +67,6 @@ li {
   height: 240px;
 }
 
-.box-green {
-  background-color: #098A5C;
-  width: 340px;
-  height: auto;
-}
-
 .text-size {
   font-size: 13px;
 }
@@ -98,7 +94,11 @@ li {
 
 .grid-section-2-card {
   background-color: $secondary-color;
-  width: 340px;
+  height: auto;
+}
+
+.box-green {
+  background-color: #098A5C;
   height: auto;
 }
 
