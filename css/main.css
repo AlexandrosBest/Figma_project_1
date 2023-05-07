@@ -12065,6 +12065,10 @@ li a {
   color: white;
 }
 
+.center {
+  margin-top: 7px;
+}
+
 .section-1-container {
   background-color: black;
   background-image: url("../images/background-1.png");
