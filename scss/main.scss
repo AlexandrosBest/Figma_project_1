@@ -16,7 +16,7 @@ $secondary-color: #313131;
   background-color: #098A5C;
 }
 html {
-  background-color: #1E1E1E;
+
 }
 
 body {
@@ -24,6 +24,7 @@ body {
   color: $primary-color;
   margin-top: 57px;
   background-color: #313131;
+  --bs-gutter-x: 30px;
 }
 
 ul {
@@ -41,6 +42,7 @@ li {
 }
 
 .container-lg {
+  max-width: 1090px;
   padding-top: 120px;
 }
 
@@ -67,16 +69,15 @@ li {
 
 .col-size {
   width: 300px;
-  margin-right: 150px;
+  margin-right: 100px;
 }
 
 .col-size-creatuve {
-  width: 300px;
+
 }
 
 .box {
   background-color: $secondary-color;
-  width: 300px;
 }
 
 .text-size {
@@ -97,25 +98,16 @@ li {
   padding-bottom: 70px;
 }
 
-.section-2-grid-container {
-  
-}
-
-
 .grid-section-2-card {
   background-color: $secondary-color;
-  width: 340px;
   height: auto;
-}
-
-.col-size-2 {
-  width: 341px;
+  border-bottom: solid 6px white;
 }
 
 .box-green {
   background-color: #098A5C;
-  width: 340px;
   height: auto;
+  border-bottom: solid 6px white;
 }
 
 .white-line {
@@ -137,6 +129,15 @@ li {
   background-color: #098A5C;
   margin: auto;
   margin-top: 70px;
+}
+
+.col-padding {
+  padding-right: 18px;
+  padding-bottom: 14px;
+}
+
+.col-padding-2 {
+  padding-right: 18px;
 }
 
 //section-3

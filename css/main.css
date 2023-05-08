@@ -12028,15 +12028,12 @@ textarea.form-control-lg {
   background-color: #098A5C;
 }
 
-html {
-  background-color: #1E1E1E;
-}
-
 body {
   font: 100% Helvetica, sans-serif;
   color: white;
   margin-top: 57px;
   background-color: #313131;
+  --bs-gutter-x: 30px;
 }
 
 ul {
@@ -12053,6 +12050,7 @@ li a {
 }
 
 .container-lg {
+  max-width: 1090px;
   padding-top: 120px;
 }
 
@@ -12078,16 +12076,11 @@ li a {
 
 .col-size {
   width: 300px;
-  margin-right: 150px;
-}
-
-.col-size-creatuve {
-  width: 300px;
+  margin-right: 100px;
 }
 
 .box {
   background-color: #313131;
-  width: 300px;
 }
 
 .text-size {
@@ -12108,18 +12101,14 @@ li a {
 
 .grid-section-2-card {
   background-color: #313131;
-  width: 340px;
   height: auto;
-}
-
-.col-size-2 {
-  width: 341px;
+  border-bottom: solid 6px white;
 }
 
 .box-green {
   background-color: #098A5C;
-  width: 340px;
   height: auto;
+  border-bottom: solid 6px white;
 }
 
 .white-line {
@@ -12141,6 +12130,15 @@ li a {
   background-color: #098A5C;
   margin: auto;
   margin-top: 70px;
+}
+
+.col-padding {
+  padding-right: 18px;
+  padding-bottom: 14px;
+}
+
+.col-padding-2 {
+  padding-right: 18px;
 }
 
 .section-3-container {
