@@ -12269,15 +12269,27 @@ li a {
 .section-5-stars {
   display: block;
   margin: auto;
+  padding-bottom: 10px;
 }
 
 .section-5-swipe {
   display: block;
   margin: auto;
-  padding-bottom: 35px;
-  padding-top: 50px;
+  padding-top: 150px;
+}
+
+.section-5-face {
+  display: block;
+  margin: auto;
+}
+
+.position-absolute-section-5 {
+  position: absolute;
+  bottom: -100px;
+  right: 140px;
 }
 
 .section-6 {
+  width: 100%;
   background-color: #1E1E1E;
 }/*# sourceMappingURL=main.css.map */
