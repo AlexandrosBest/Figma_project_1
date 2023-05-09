@@ -55,6 +55,33 @@ li {
   margin-top: 7px;
 }
 
+.nav-link:hover
+.nav-link:focus {
+  color: #098A5C;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.active-link {
+  border-bottom: solid 2px #098A5C;
+}
+
+.nav-link::after {
+  content: '';
+  opacity: 0;
+  transition: all 0.2s;
+  height: 2px;
+  width: 100%;
+  background-color: #098A5C;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.nav-link:hover::after {
+  opacity: 1;
+}
 //section-1
 
 .section-1-container {
