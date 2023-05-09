@@ -12130,10 +12130,6 @@ li a {
   padding-right: 18px;
 }
 
-.section-3-container {
-  background-color: #313131;
-}
-
 .container-grid-works {
   width: 100%;
   background-color: #313131;
@@ -12155,6 +12151,13 @@ li a {
   margin-bottom: 50px;
 }
 
+.btn-section-3 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .section-4-container {
   background-color: #1E1E1E;
   padding-bottom: 70px;
@@ -12169,16 +12172,25 @@ li a {
   padding-top: 34px;
 }
 
-.border-right {
+.section-4-borders {
+  padding-right: 32px;
   border-right: solid 2px #098A5C;
 }
 
-.green-line-5 .green-line-3 {
+.section-4-borders-2 {
+  padding-left: 32px;
+  padding-right: 32px;
+  border-right: solid 2px #098A5C;
+}
+
+.section-4-borders-3 {
+  padding-left: 32px;
+}
+
+.green-line-5 {
   width: 2px;
-  height: 82px;
+  height: 100%;
   background-color: #098A5C;
-  margin: auto;
-  margin-top: 70px;
 }
 
 .grid-section-5-card {
