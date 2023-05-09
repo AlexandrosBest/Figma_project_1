@@ -12194,6 +12194,25 @@ li a {
   background-color: #098A5C;
 }
 
+.position-relative {
+  position: relative;
+}
+
+.position-team-work {
+  z-index: 100;
+  position: absolute;
+  bottom: 46px;
+  left: 22px;
+  font-weight: 700;
+}
+
+.position-committed {
+  z-index: 100;
+  position: absolute;
+  bottom: 20px;
+  left: 22px;
+}
+
 .grid-section-5-card {
   background-color: #1E1E1E;
   height: auto;

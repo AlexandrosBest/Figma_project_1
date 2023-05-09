@@ -187,6 +187,25 @@ li {
   height: 100%;
   background-color: #098A5C;
 }
+
+.position-relative {
+  position: relative;
+}
+
+.position-team-work {
+  z-index: 100;
+  position: absolute;
+  bottom: 46px;
+  left: 22px;
+  font-weight: 700;
+}
+
+.position-committed {
+  z-index: 100;
+  position: absolute;
+  bottom: 20px;
+  left: 22px;
+}
 //section-5
 
 .grid-section-5-card {
@@ -228,6 +247,6 @@ li {
 }
 
 //section-6
-.section-6{
+.section-6 {
   background-color: #1E1E1E;
 }
