@@ -12066,6 +12066,7 @@ li a {
 
 .center {
   margin-top: 7px;
+  pointer-events: visible;
 }
 
 .nav-link:hover .nav-link:focus {
@@ -12290,6 +12291,64 @@ li a {
 }
 
 .section-6 {
-  width: 100%;
   background-color: #1E1E1E;
+  padding-bottom: 70px;
+}
+
+.text-padding {
+  padding-bottom: 65px;
+}
+
+.green-line-section-6 {
+  padding-top: 0px;
+}
+
+.text-1-section-6 {
+  padding-top: 24px;
+  padding-left: 20px;
+  padding-right: 35px;
+}
+
+.text-2-section-6 {
+  max-width: 330px;
+  padding-left: 20px;
+  padding-bottom: 24;
+  padding-top: 20px;
+}
+
+.btn-padding {
+  padding-left: 20px;
+}
+
+.card-background {
+  background-color: #1E1E1E;
+}
+
+.section-6-h1-padding {
+  padding-top: 80px;
+  padding-bottom: 35px;
+}
+
+.btn-section-6 {
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.section-8 {
+  background-color: #1E1E1E;
+  padding-bottom: 50px;
+}
+
+.footer-padding {
+  padding-top: 26px;
+}
+
+.display-inline {
+  display: inline-block;
+}
+
+.section-7-container {
+  max-width: 661px;
 }/*# sourceMappingURL=main.css.map */
