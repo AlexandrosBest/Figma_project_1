@@ -331,9 +331,18 @@ li {
   padding-right: 50px;
 }
 
+.display-inline {
+  display: inline;
+}
+
+//section-7
+.section-7 {
+  background-color: #1E1E1E;
+  padding-bottom: 60px;
+}
 
 //footer
-.section-8 {
+footer {
   background-color: #1E1E1E;
   padding-bottom: 50px;
 }
@@ -342,10 +351,6 @@ li {
   padding-top: 26px;
 }
 
-.display-inline {
+.display-inline-block {
   display: inline-block;
-}
-
-.section-7-container {
-  max-width: 661px;
 }
