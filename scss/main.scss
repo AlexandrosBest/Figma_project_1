@@ -3,7 +3,11 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "functions"; // Bootstrap Functions - required to be imported before variables
+@import "variables"; // Custom variables / Bootstrap overrides
+@import "variables-dark"; // Custom variables / Bootstrap overrides
+@import "maps";      // Bootstrap maps
+@import "bootstrap";
 
 
 // Then add additional custom code here
@@ -11,7 +15,6 @@ $primary-color: white;
 $secondary-color: #313131;
 
 //general
-
 .underline {
   background-color: #098A5C;
 }
@@ -46,45 +49,50 @@ li {
 
 //nav
 
-.navbar {
-  background-color: black;
+// .navbar {
+//   background-color: black;
+// }
+
+// .dropdown-menu{background:rgba(0,0,0,0.5); color:white; }
+
+// .center {
+//   margin-top: 7px;
+//   pointer-events: visible;
+// } 
+
+// .nav-link:hover
+// .nav-link:focus {
+//   color: #098A5C;
+// }
+
+// .nav-link {
+//   position: relative;
+// }
+
+// .active-link{
+//   border-bottom: solid 2px #098A5C;
+// }
+
+// .navbar .navbar-nav .nav-link::after {
+//   content: '';
+//   opacity: 0;
+//   transition: all 0.2s;
+//   height: 2px;
+//   width: 100%;
+//   background-color: #098A5C;
+//   position: absolute;
+//   bottom: 0;
+//   left: 0;
+// }
+
+// .navbar .navbar-nav  .nav-item:hover::after {
+//   opacity: 1;
+// } 
+.nav-underline .nav-link{
+   &:hover, &:focus {
+    border-bottom-color: #098A5C;
+  }
 }
-
-.dropdown-menu{background:rgba(0,0,0,0.5); color:white; }
-
-.center {
-  margin-top: 7px;
-  pointer-events: visible;
-} 
-
-.nav-item:hover
-.nav-item:focus {
-  color: #098A5C;
-}
-
-.nav-item {
-  position: relative;
-}
-
-.active-link{
-  border-bottom: solid 2px #098A5C;
-}
-
-.navbar .navbar-nav .nav-item::after {
-  content: '';
-  opacity: 0;
-  transition: all 0.2s;
-  height: 2px;
-  width: 100%;
-  background-color: #098A5C;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-.navbar .navbar-nav  .nav-item:hover::after {
-  opacity: 1;
-} 
 
 //section-1
 
@@ -127,6 +135,13 @@ li {
   background-color: #098A5C;
   height: auto;
   border-bottom: solid 6px white;
+
+  @include media-breakpoint-up(xl) {
+    background-color: black;
+  }
+  @include media-breakpoint-up(xxl) {
+    background-color: blue;
+  }
 }
 
 .green-line-2 {
@@ -236,6 +251,29 @@ li {
   position: absolute;
   bottom: 20px;
   left: 22px;
+}
+
+.section-4-col {
+  background-size: cover;
+  background-position: center center;
+}
+
+.section-4-col-1 {
+  background-image: url(../icons/about-1.png);
+  aspect-ratio: 1/1;
+
+  @include media-breakpoint-up(md) {
+    aspect-ratio: auto;
+    height: 100%;
+  }
+}
+.section-4-col-2 {
+  background-image: url(../icons/about-2.png);
+  aspect-ratio: 2/1;
+}
+.section-4-col-3 {
+  background-image: url(../icons/about-3.png);
+  aspect-ratio: 2/1;
 }
 //section-5
 
