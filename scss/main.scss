@@ -5,6 +5,7 @@
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+
 // Then add additional custom code here
 $primary-color: white;
 $secondary-color: #313131;
@@ -252,12 +253,12 @@ li {
   padding-top: 10px;
   padding-bottom: 60px;
   display: block;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .section-5-text {
   display: block;
-  margin: auto;
+  margin: 0 auto;
   padding-bottom: 27px;
   text-align: center;
   font-size: 13px;
@@ -265,7 +266,7 @@ li {
 
 .section-5-stars {
   display: block;
-  margin: auto;
+  margin: 0 auto;
   padding-bottom: 10px;
 }
 
@@ -319,10 +320,13 @@ li {
 
 .btn-padding {
   padding-left: 20px;
+  margin-top: auto;
 }
 
 .card-background {
   background-color: #1E1E1E;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-6-h1-padding {
@@ -339,6 +343,10 @@ li {
 
 .display-inline {
   display: inline;
+}
+
+.display-flex {
+  display: flex;
 }
 
 //section-7
