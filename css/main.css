@@ -12055,6 +12055,20 @@ li a {
   padding-top: 120px;
 }
 
+.navbar {
+  background-color: black;
+}
+
+.dropdown-menu {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.center {
+  margin-top: 7px;
+  pointer-events: visible;
+}
+
 .nav-underline .nav-link:hover, .nav-underline .nav-link:focus {
   border-bottom-color: #098A5C;
 }
@@ -12099,12 +12113,12 @@ li a {
 }
 @media (min-width: 1200px) {
   .box-green {
-    background-color: black;
+    background-color: #098A5C;
   }
 }
 @media (min-width: 1400px) {
   .box-green {
-    background-color: blue;
+    background-color: #098A5C;
   }
 }
 
@@ -12244,6 +12258,9 @@ li a {
   background-color: #1E1E1E;
   height: auto;
   padding: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-5-col-padding {
