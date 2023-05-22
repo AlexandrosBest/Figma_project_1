@@ -68,35 +68,7 @@ img {
    margin-top: 7px;
    pointer-events: visible;
  } 
-
-// .nav-link:hover
-// .nav-link:focus {
-//   color: #098A5C;
-// }
-
-// .nav-link {
-//   position: relative;
-// }
-
-// .active-link{
-//   border-bottom: solid 2px #098A5C;
-// }
-
-// .navbar .navbar-nav .nav-link::after {
-//   content: '';
-//   opacity: 0;
-//   transition: all 0.2s;
-//   height: 2px;
-//   width: 100%;
-//   background-color: #098A5C;
-//   position: absolute;
-//   bottom: 0;
-//   left: 0;
-// }
-
-// .navbar .navbar-nav  .nav-item:hover::after {
-//   opacity: 1;
-// } 
+ 
 .nav-underline .nav-link{
    &:hover, &:focus {
     border-bottom-color: #098A5C;
@@ -105,7 +77,7 @@ img {
 
 //section-1
 
-.section-1-container {
+.section-1 {
   background-color: black;
   background-image: url("../images/background-1.png");
   background-size: cover;
@@ -418,3 +390,31 @@ footer {
 .display-inline-block {
   display: inline-block;
 }
+
+
+// Responsive Design
+
+@media screen and (max-width:840px) {
+
+  .grid-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .display-block {
+    flex: 1 1 200px; /* Adjust the width of flex items as needed */
+    margin: 10px;
+  }
+}
+
+/* Small screens */
+@media screen and (max-width: 840px) {
+  .display-block {
+    flex-basis: 100%; /* Full width for flex items on small screens */
+  }
+}
+
+
+
+
+
